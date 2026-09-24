@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict');
+const E=require('./dist/engine.js');
+const base=E.levels();
+assert.equal(E.maxStamina(base,E.DEFAULT),100);
+for(const [level,n] of [[1,1],[10,1],[11,2],[20,2],[21,3],[40,3],[41,4],[60,4],[61,5],[80,5],[81,6],[100,6]])assert.equal(E.boosts({...base,acceleration:level}),n);
+const r=E.createRace();const before=r.racers[0].stamina;assert(E.boost(r));assert.equal(r.racers[0].stamina,before-E.boostCost(base,r.c));assert(!E.boost(r));assert(E.boostCost({...base,acceleration:50},r.c)>E.boostCost(base,r.c));
+const short=E.simulate({distance:800});assert.notEqual(short.racers[0].finish,null);
+const long=E.simulate({distance:10000});assert(long.racers[0].dnf);assert.equal(E.reward(long).total,0);
+const grown=E.simulate({distance:10000,levels:E.levels(100)});assert.notEqual(grown.racers[0].finish,null);
+const low=E.simulate({levels:base},false),high=E.simulate({levels:{...base,endurance:100}},false);assert(high.racers[0].finish<low.racers[0].finish);assert.equal(high.racers[0].capacity,low.racers[0].capacity);
+const s=E.fresh();for(let i=0;i<5;i++)E.settle(s,E.simulate({seed:i}));assert.equal(s.training,5);const coins=s.coins;assert(!E.settle(s,short)||s.coins>coins);const paid=s.coins;assert(!E.settle(s,short));assert.equal(s.coins,paid);
+s.coins=1e9;const cost=E.price(s.levels,'stamina',s.settings);assert(E.buy(s,'stamina'));assert.equal(s.coins,1e9-cost);s.levels.stamina=100;assert(!E.buy(s,'stamina'));s.activeRace=E.createRace();assert(!E.buy(s,'speed'));
+const restored=JSON.parse(JSON.stringify(r));while(!r.done)E.step(r);while(!restored.done)E.step(restored);assert.deepEqual(restored,r);
+const podium=E.simulate({mode:'stadium',levels:E.levels(100),distance:800});assert.equal(E.reward(podium).rank,1);assert(E.reward(podium).podium>0);assert(E.reward(podium).reserve>0);
+assert(E.validProgress(E.fresh()));assert(!E.validProgress({...E.fresh(),coins:-1}));
+const fail=E.progressRun({...E.DEFAULT,baseDrain:.2},{maxRaces:6});assert(!fail.success);
+console.log('PASS: capacity, boost thresholds/cost, DNF, long-distance growth, endurance, training gate, reward idempotency, upgrade costs/cap, active race lock, deterministic save resume, podium, invalid progress, no false DNF podium.');

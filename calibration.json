@@ -1,0 +1,696 @@
+{
+  "summary": {
+    "samples": 50,
+    "successes": 50,
+    "playback": 4,
+    "betweenSeconds": 15,
+    "distance": 800,
+    "policy": "record",
+    "medianMinutes": 55.657083333332714,
+    "minMinutes": 39.363333333332896,
+    "maxMinutes": 70.96666666666587,
+    "medianRaces": 51,
+    "config": {
+      "staminaGain": 15,
+      "speedGain": 0.004,
+      "enduranceGain": 0.0075,
+      "efficiencyCap": 0.25,
+      "baseDrain": 0.1,
+      "boostCost": 8,
+      "boostCostGain": 0.3,
+      "boostDuration": 8,
+      "boostGain": 0.25,
+      "trainingReward": 50,
+      "finishReward": 100,
+      "costScale": 1,
+      "costGrowth": 1.085,
+      "opponentLevel": 12,
+      "distanceWeights": {
+        "800": 1,
+        "1000": 1.2,
+        "5000": 5,
+        "10000": 9
+      },
+      "prices": {
+        "stamina": 120,
+        "endurance": 160,
+        "speed": 180,
+        "efficiency": 180,
+        "acceleration": 130,
+        "tactics": 100
+      }
+    }
+  },
+  "results": [
+    {
+      "success": true,
+      "minutes": 68.73166666666589,
+      "races": 63,
+      "levels": {
+        "stamina": 1,
+        "endurance": 7,
+        "speed": 18,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 54.60416666666605,
+      "races": 50,
+      "levels": {
+        "stamina": 1,
+        "endurance": 5,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 66.52249999999923,
+      "races": 61,
+      "levels": {
+        "stamina": 1,
+        "endurance": 7,
+        "speed": 18,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 55.66833333333272,
+      "races": 51,
+      "levels": {
+        "stamina": 1,
+        "endurance": 5,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 68.72083333333256,
+      "races": 63,
+      "levels": {
+        "stamina": 1,
+        "endurance": 7,
+        "speed": 18,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 56.761666666666,
+      "races": 52,
+      "levels": {
+        "stamina": 1,
+        "endurance": 5,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 52.43083333333273,
+      "races": 48,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 54.59916666666605,
+      "races": 50,
+      "levels": {
+        "stamina": 1,
+        "endurance": 5,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 50.177499999999434,
+      "races": 46,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 15,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 52.39916666666608,
+      "races": 48,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 65.51999999999926,
+      "races": 60,
+      "levels": {
+        "stamina": 1,
+        "endurance": 6,
+        "speed": 18,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 51.350833333332766,
+      "races": 47,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 15,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 66.58499999999927,
+      "races": 61,
+      "levels": {
+        "stamina": 1,
+        "endurance": 7,
+        "speed": 18,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 50.18833333333277,
+      "races": 46,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 15,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 65.51499999999928,
+      "races": 60,
+      "levels": {
+        "stamina": 1,
+        "endurance": 6,
+        "speed": 18,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 49.10416666666613,
+      "races": 45,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 15,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 48.08916666666612,
+      "races": 44,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 15,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 48.06749999999945,
+      "races": 44,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 15,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 46.93916666666613,
+      "races": 43,
+      "levels": {
+        "stamina": 1,
+        "endurance": 3,
+        "speed": 15,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 61.15666666666597,
+      "races": 56,
+      "levels": {
+        "stamina": 1,
+        "endurance": 6,
+        "speed": 17,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 57.940833333332684,
+      "races": 53,
+      "levels": {
+        "stamina": 1,
+        "endurance": 5,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 56.745833333332705,
+      "races": 52,
+      "levels": {
+        "stamina": 1,
+        "endurance": 5,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 67.74333333333259,
+      "races": 62,
+      "levels": {
+        "stamina": 1,
+        "endurance": 7,
+        "speed": 18,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 53.46916666666607,
+      "races": 49,
+      "levels": {
+        "stamina": 1,
+        "endurance": 5,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 70.96666666666587,
+      "races": 65,
+      "levels": {
+        "stamina": 1,
+        "endurance": 7,
+        "speed": 19,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 55.69583333333271,
+      "races": 51,
+      "levels": {
+        "stamina": 1,
+        "endurance": 5,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 67.65916666666588,
+      "races": 62,
+      "levels": {
+        "stamina": 1,
+        "endurance": 7,
+        "speed": 18,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 66.59583333333258,
+      "races": 61,
+      "levels": {
+        "stamina": 1,
+        "endurance": 7,
+        "speed": 18,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 42.639166666666185,
+      "races": 39,
+      "levels": {
+        "stamina": 1,
+        "endurance": 3,
+        "speed": 14,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 67.63666666666592,
+      "races": 62,
+      "levels": {
+        "stamina": 1,
+        "endurance": 7,
+        "speed": 18,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 52.42166666666608,
+      "races": 48,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 53.438333333332736,
+      "races": 49,
+      "levels": {
+        "stamina": 1,
+        "endurance": 5,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 66.57749999999925,
+      "races": 61,
+      "levels": {
+        "stamina": 1,
+        "endurance": 7,
+        "speed": 18,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 39.363333333332896,
+      "races": 36,
+      "levels": {
+        "stamina": 1,
+        "endurance": 2,
+        "speed": 13,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 67.62916666666591,
+      "races": 62,
+      "levels": {
+        "stamina": 1,
+        "endurance": 7,
+        "speed": 18,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 51.4091666666661,
+      "races": 47,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 15,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 52.409999999999414,
+      "races": 48,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 44.80333333333282,
+      "races": 41,
+      "levels": {
+        "stamina": 1,
+        "endurance": 3,
+        "speed": 14,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 49.19499999999945,
+      "races": 45,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 15,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 55.64583333333271,
+      "races": 51,
+      "levels": {
+        "stamina": 1,
+        "endurance": 5,
+        "speed": 16,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 48.0983333333328,
+      "races": 44,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 15,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 58.97166666666601,
+      "races": 54,
+      "levels": {
+        "stamina": 1,
+        "endurance": 5,
+        "speed": 17,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 57.814999999999365,
+      "races": 53,
+      "levels": {
+        "stamina": 1,
+        "endurance": 5,
+        "speed": 17,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 64.4408333333326,
+      "races": 59,
+      "levels": {
+        "stamina": 1,
+        "endurance": 6,
+        "speed": 17,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 45.83499999999948,
+      "races": 42,
+      "levels": {
+        "stamina": 1,
+        "endurance": 3,
+        "speed": 14,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 48.069999999999446,
+      "races": 44,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 15,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 60.034166666665996,
+      "races": 55,
+      "levels": {
+        "stamina": 1,
+        "endurance": 6,
+        "speed": 17,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 50.219999999999445,
+      "races": 46,
+      "levels": {
+        "stamina": 1,
+        "endurance": 4,
+        "speed": 15,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 58.95249999999935,
+      "races": 54,
+      "levels": {
+        "stamina": 1,
+        "endurance": 5,
+        "speed": 17,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    },
+    {
+      "success": true,
+      "minutes": 61.12916666666599,
+      "races": 56,
+      "levels": {
+        "stamina": 1,
+        "endurance": 6,
+        "speed": 17,
+        "efficiency": 1,
+        "acceleration": 1,
+        "tactics": 1
+      }
+    }
+  ]
+}
