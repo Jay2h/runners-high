@@ -1,0 +1,2 @@
+importScripts('engine.js');
+self.onmessage=({data})=>{try{if(data.type==='single'){const r=RH.simulate(data.options,data.auto);postMessage({type:'single',racers:RH.ranking(r),reward:RH.reward(r),time:r.time});return;}const results=[];for(let i=0;i<data.count;i++){results.push(RH.progressRun(data.config,{...data.options,seed:100+i*100}));postMessage({type:'progress',done:i+1,total:data.count});}postMessage({type:'complete',results});}catch(e){postMessage({type:'error',message:e.message});}};
