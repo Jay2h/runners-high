@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'io.github.jay2h.runnershigh'
+ compileSdk 35
+ defaultConfig {
+  applicationId 'io.github.jay2h.runnershigh.trial'
+  minSdk 26
+  targetSdk 35
+  versionCode 1
+  versionName '0.1.0-trial'
+ }
+ sourceSets { main { assets.srcDirs = ['../../dist'] } }
+}
+dependencies { implementation 'androidx.webkit:webkit:1.12.1' }
