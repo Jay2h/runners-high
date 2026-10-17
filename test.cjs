@@ -15,3 +15,8 @@ const podium=E.simulate({mode:'stadium',levels:E.levels(100),distance:800});asse
 assert(E.validProgress(E.fresh()));assert(!E.validProgress({...E.fresh(),coins:-1}));
 const fail=E.progressRun({...E.DEFAULT,baseDrain:.2},{maxRaces:6});assert(!fail.success);
 console.log('PASS: capacity, boost thresholds/cost, DNF, long-distance growth, endurance, training gate, reward idempotency, upgrade costs/cap, active race lock, deterministic save resume, podium, invalid progress, no false DNF podium.');
+
+const legacy={...E.fresh(),balanceRevision:undefined,settings:{...E.DEFAULT,costScale:1},coins:123,levels:E.levels(10),activeRace:{c:{costScale:1}}};
+assert(E.migrateBalance(legacy));assert.equal(legacy.settings.costScale,.25);assert.equal(legacy.coins,123);assert.equal(legacy.levels.speed,10);assert.equal(legacy.activeRace.c.costScale,1);assert.equal(E.migrateBalance(legacy),false);
+const custom={...E.fresh(),balanceRevision:undefined,settings:{...E.DEFAULT,costScale:2}};E.migrateBalance(custom);assert.equal(custom.settings.costScale,2);
+assert.equal(E.price(E.levels(),'speed',E.DEFAULT),45);
